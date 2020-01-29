@@ -1,20 +1,30 @@
-  
 {
-  "name": "my_particle_alexa_skill",
-  "description": "Alexa Skill Lambda Function for accessing Particle devices",
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/paulgoodjohn/alexa.git"
-  },
+  "name": "yashu-alexa-skill",
   "version": "0.0.1",
-  "private": false,
-  "dependencies": {
-    "alexa-sdk": "^1.0.25",
-    "bespoken-tools": "^1.2.8",
-    "particle-api-js": "^7.0.1"
+  "description": "An example Alexa Skill project using the alexa-app module with Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.9.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puttareddy/yashu-alexa-skill.git"
+  },
+  "keywords": [
+    "alexa",
+    "amazon",
+    "echo",
+    "skills"
+  ],
+  "author": "Puttaiah Arugunta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puttareddy/yashu-alexa-skill/issues"
+  },
+  "dependencies": {
+    "alexa-app": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
   }
 }
