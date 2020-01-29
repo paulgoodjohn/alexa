@@ -1,0 +1,17 @@
+artifacts/
+build/
+node_modules/
+.DS_Store
+.settings
+Build/
+Testing/Build/
+package-lock.json
+Session.vim
+default.vim
+tags
+.undodir/
+cscope.out
+MemTestBuild 
+/UsbLoopBackTestBuild/
+.vscode/
+Lcov
