@@ -1,0 +1,20 @@
+  
+{
+  "name": "my_particle_alexa_skill",
+  "description": "Alexa Skill Lambda Function for accessing Particle devices",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/paulgoodjohn/alexa.git"
+  },
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "bespoken-tools": "^1.2.8",
+    "particle-api-js": "^7.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
